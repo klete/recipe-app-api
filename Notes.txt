@@ -16,4 +16,10 @@ Start the Django service:
 
 $ docker-compose up
 
+$ docker-compose down
+
+
+Create new app in django project:
+
+$ docker-compose run --rm app sh -c "python manage.py startapp core"
 
